@@ -151,6 +151,63 @@
       ],
       "value": ""
     }]
+  }, {
+    "id": "b41b6404-1e35-42e9-8e16-9e5f1349eec3",
+    "name": "Invalid number",
+    "commands": [{
+      "id": "dbe06ae2-c1d8-4c2c-beb3-17a21c78cc2e",
+      "comment": "",
+      "command": "open",
+      "target": "/en/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aeb87143-90ef-4e49-a5a1-9ed6fe63c02c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x666",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "101783d4-024b-4bfd-bc64-3b3eea03eabc",
+      "comment": "Enter a valid phone number",
+      "command": "type",
+      "target": "name=mobile",
+      "targets": [
+        ["name=mobile", "name"],
+        ["css=.css-oxclzu-5b89d02d--InputContainer", "css:finder"],
+        ["xpath=//input[@name='mobile']", "xpath:attributes"],
+        ["xpath=//div[@id='loginContainer']/div[2]/div/div/form/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "90111111111111111"
+    }, {
+      "id": "b31303cc-b946-452f-b9fe-2c6d667c6791",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-12e8pj3-5b89d02d--ButtonSendCode",
+      "targets": [
+        ["css=.css-12e8pj3-5b89d02d--ButtonSendCode", "css:finder"],
+        ["xpath=(//button[@type='button'])[29]", "xpath:attributes"],
+        ["xpath=//div[@id='loginContainer']/div[2]/div/div/form/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Send code')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2fb05af9-9580-45f3-b432-d21b660401b2",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginContainer",
+      "targets": [
+        ["id=loginContainer", "id"],
+        ["css=#loginContainer", "css:finder"],
+        ["xpath=//div[@id='loginContainer']", "xpath:attributes"],
+        ["xpath=//div[@id='loginModalContentContainer']/div", "xpath:idRelative"],
+        ["xpath=//div[9]/div[3]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
   }],
   "suites": [{
     "id": "6be67730-ec94-4aa3-a823-c2686d39b94a",
@@ -158,7 +215,7 @@
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
-    "tests": ["87f5c20a-58af-4b4c-a305-c4693d8cc7a2", "1a2ecb15-2b7f-41a7-84bb-8d2709716693"]
+    "tests": ["87f5c20a-58af-4b4c-a305-c4693d8cc7a2", "1a2ecb15-2b7f-41a7-84bb-8d2709716693", "b41b6404-1e35-42e9-8e16-9e5f1349eec3"]
   }],
   "urls": ["https://www.tiktok.com/"],
   "plugins": []
