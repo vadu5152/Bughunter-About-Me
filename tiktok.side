@@ -1,0 +1,165 @@
+{
+  "id": "604c39fa-4fe6-4370-8c03-550841275962",
+  "version": "2.0",
+  "name": "tiktok",
+  "url": "https://www.tiktok.com",
+  "tests": [{
+    "id": "87f5c20a-58af-4b4c-a305-c4693d8cc7a2",
+    "name": "unmute the sound",
+    "commands": [{
+      "id": "8d0edb48-3c42-4411-94b5-1bed2e0cdb7c",
+      "comment": "",
+      "command": "open",
+      "target": "/en/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "45032bcc-3bc7-4b82-8fc7-2b10dc2ddb14",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1020x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8152aabd-e6b2-4beb-abeb-a19d8cd43cb9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#media-card-0 .css-1vfs3fo-7937d88b--DivVolumeControlContainer .TUXButton",
+      "targets": [
+        ["css=#media-card-0 .css-1vfs3fo-7937d88b--DivVolumeControlContainer .TUXButton", "css:finder"],
+        ["xpath=(//button[@type='button'])[12]", "xpath:attributes"],
+        ["xpath=//section[@id='media-card-0']/div/div[2]/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0169d8a3-f874-4822-bc77-caa471fcb64c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.css-f2f68a-7937d88b--DivVolumeControlContainer .TUXButton",
+      "targets": [
+        ["css=.css-f2f68a-7937d88b--DivVolumeControlContainer .TUXButton", "css:finder"],
+        ["xpath=(//button[@type='button'])[12]", "xpath:attributes"],
+        ["xpath=//section[@id='media-card-0']/div/div[2]/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a3a6399-f11d-44f8-b27f-ffc1ac3508b5",
+      "comment": "Website is muted upon entry butthe toggle is on, the toggle is then switched off then on beforethe sound finally comes on",
+      "command": "click",
+      "target": "css=.css-f2f68a-7937d88b--DivVolumeControlContainer path:nth-child(1)",
+      "targets": [
+        ["css=.css-f2f68a-7937d88b--DivVolumeControlContainer path:nth-child(1)", "css:finder"]
+      ],
+      "value": "volume toggle"
+    }, {
+      "id": "c472a047-ca7c-472b-ac98-72bac8d0c970",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-f2f68a-7937d88b--DivVolumeControlContainer path",
+      "targets": [
+        ["css=.css-f2f68a-7937d88b--DivVolumeControlContainer path", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "1a2ecb15-2b7f-41a7-84bb-8d2709716693",
+    "name": "profile",
+    "commands": [{
+      "id": "f1f7b406-e9ca-4c6b-9907-d76f30e2173c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e6698589-f3af-444a-b36a-55df09c02d43",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x658",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4af3afb5-a69e-4f3d-b385-f61d8cb4c07f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=h2:nth-child(6) .TUXButton",
+      "targets": [
+        ["css=h2:nth-child(6) .TUXButton", "css:finder"],
+        ["xpath=(//button[@type='button'])[9]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div[2]/div/div/div[3]/div/h2[5]/div/a/button", "xpath:idRelative"],
+        ["xpath=//h2[5]/div/a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Profile')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3db46a9f-1e1e-4878-a6be-59f18103fca5",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=h2:nth-child(6) .TUXButton",
+      "targets": [
+        ["css=h2:nth-child(6) .TUXButton", "css:finder"],
+        ["xpath=(//button[@type='button'])[9]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div[2]/div/div/div[3]/div/h2[5]/div/a/button", "xpath:idRelative"],
+        ["xpath=//h2[5]/div/a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Profile')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8418fabe-d34f-4335-8097-36941e4334dd",
+      "comment": "",
+      "command": "click",
+      "target": "css=h2:nth-child(6) .TUXButton-content",
+      "targets": [
+        ["css=h2:nth-child(6) .TUXButton-content", "css:finder"],
+        ["xpath=//div[@id='app']/div[2]/div/div/div[3]/div/h2[5]/div/a/button/div", "xpath:idRelative"],
+        ["xpath=//h2[5]/div/a/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e8f94dc-781c-4aae-8a4f-08bbeda2075c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-1yjpihp-5b89d02d--StyledIcon",
+      "targets": [
+        ["css=.css-1yjpihp-5b89d02d--StyledIcon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "2cea70e3-1dff-488d-9b93-bc344324baf9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#media-card-0 .css-1vfs3fo-7937d88b--DivVolumeControlContainer .TUXButton",
+      "targets": [
+        ["css=#media-card-0 .css-1vfs3fo-7937d88b--DivVolumeControlContainer .TUXButton", "css:finder"],
+        ["xpath=(//button[@type='button'])[12]", "xpath:attributes"],
+        ["xpath=//section[@id='media-card-0']/div/div[2]/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "016fe1c3-f1e2-40e8-ac8e-86b01b9af33a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.css-f2f68a-7937d88b--DivVolumeControlContainer .TUXButton",
+      "targets": [
+        ["css=.css-f2f68a-7937d88b--DivVolumeControlContainer .TUXButton", "css:finder"],
+        ["xpath=(//button[@type='button'])[12]", "xpath:attributes"],
+        ["xpath=//section[@id='media-card-0']/div/div[2]/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "6be67730-ec94-4aa3-a823-c2686d39b94a",
+    "name": "Tiktok",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["87f5c20a-58af-4b4c-a305-c4693d8cc7a2", "1a2ecb15-2b7f-41a7-84bb-8d2709716693"]
+  }],
+  "urls": ["https://www.tiktok.com/"],
+  "plugins": []
+}
