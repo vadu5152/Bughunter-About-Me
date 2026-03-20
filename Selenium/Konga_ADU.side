@@ -60,7 +60,7 @@
       "command": "executeScript",
       "target": "document.getElementById(\"username\")",
       "targets": [],
-      "value": "vadu5152@gamil.com"
+      "value": ""
     }, {
       "id": "d0e1ce98-d7e9-41ff-aa25-c1d510f1955e",
       "comment": "",
@@ -80,7 +80,7 @@
       "command": "executeScript",
       "target": "document.getElementById(\"password\")",
       "targets": [],
-      "value": "Ilovemymum_2"
+      "value": ""
     }, {
       "id": "435d1b8a-f88b-4344-804e-62700bdd3b6b",
       "comment": "click login",
@@ -136,7 +136,7 @@
       "command": "executeScript",
       "target": "document.getElementById(\"username\")",
       "targets": [],
-      "value": "vadu5152@gmail.com"
+      "value": ""
     }, {
       "id": "a1dd217d-6045-4df8-95ae-8b9b39778383",
       "comment": "successfully logged in to an account",
